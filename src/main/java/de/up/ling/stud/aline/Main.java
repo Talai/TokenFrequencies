@@ -5,7 +5,6 @@ import java.io.File;
 /**
  * Created by Aline Castendiek on 05.12.15.
  */
-
 public class Main {
 /*
     // This version reads in file directly
@@ -22,8 +21,7 @@ public class Main {
         if (args.length == 1) {
             WordCounter wordCounter = new WordCounter();
             System.out.println(wordCounter.count(new File(args[0])));
-        }
-        else {
+        } else {
             System.err.println("ERROR: Please specify exactly one file.");
         }
     }
